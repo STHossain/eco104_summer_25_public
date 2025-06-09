@@ -1,4 +1,4 @@
-## Core latex/pdflatex auxiliary files:
+# === LaTeX build artifacts ===
 *.aux
 *.lof
 *.log
@@ -8,23 +8,18 @@
 *.toc
 *.fmt
 *.fot
+
+# Code listings & change-tracking
 *.cb
 *.cb2
 .*.lb
 
-## Intermediate documents:
+# === Intermediate/output formats ===
 *.dvi
 *.xdv
 *-converted-to.*
-# these rules might exclude image files for figures etc.
-# *.ps
-# *.eps
-# *.pdf
 
-## Generated if empty string is given at "Please type another file name for output:"
-.pdf
-
-## Bibliography auxiliary files (bibtex/biblatex/biber):
+# === Bibliography files ===
 *.bbl
 *.bbl-SAVE-ERROR
 *.bcf
@@ -34,7 +29,7 @@
 *-blx.bib
 *.run.xml
 
-## Build tool auxiliary files:
+# === Build-tool caches & metadata ===
 *.fdb_latexmk
 *.synctex
 *.synctex(busy)
@@ -43,278 +38,64 @@
 *.pdfsync
 *.rubbercache
 rubber.cache
-
-## Build tool directories for auxiliary files
-# latexrun
 latex.out/
 
-## Auxiliary and intermediate files from other packages:
-# algorithms
-*.alg
+# === Package-specific aux files ===
+*.alg    # algorithms
 *.loa
-
-# achemso
-acs-*.bib
-
-# amsthm
-*.thm
-
-# attachfile2
-*.atfi
-
-# beamer
-*.nav
+*.thm    # amsthm
+*.atfi   # attachfile2
+*.nav    # beamer
 *.pre
 *.snm
 *.vrb
+*.soc    # changes
+*.cut    # comment
+*.cpt    # cprotect
+*.spl    # elsarticle
+*.ent    # endnotes
+*.lox    # fixme
+*.mf; *.mp; *.t[1-9]*; *.tfm   # feynmf/feynmp
+*.end; *.[1-9]*; *.[1-9]*R     # (r)(e)ledmac/par
+*.eledsec*
+*.acn; *.acr; *.glg; *.glo; *.gls; *.glsdefs; *.lzo; *.lzs; *.slg; *.slo; *.sls   # glossaries
+*.gnuplot; *.table; *-gnuplottex-*   # gnuplot & gnuplottex
+*.gaux; *.glog; *.gtex; *.4ct; *.4tc; *.idv; *.lg; *.trc; *.xref   # gregoriotex & htlatex
+*.brf    # hyperref
+*-concordance.tex  # knitr
+*.lol    # listings
+*.ltjruby  # luatexja-ruby
+*.idx; *.ilg; *.ind    # makeindex
+*.maf; *.mlf; *.mlt; *.mtc*; *.slf*; *.slt*; *.stc*   # minitoc
+*.data.minted; _minted*   # minted
+*.mw    # morewrites
+*.newpax  # newpax
+*.nlg; *.nlo; *.nls   # nomencl
+*.pax   # pax
+*.pdfpc # pdfpcnotes
+*.sagetex.*; pythontex-files-*/   # sagetex & pythontex
+*.listing   # tcolorbox
+*.loe   # thmtools
+*.dpth; *.md5; *.auxlock   # TikZ & PGF
+*.ptc   # titletoc
+*.tdo   # todonotes
+*.hst; *.ver   # vhistory
+*.lod   # easy-todo
+*.xcp   # xcolor
+*.xmpi  # xmpincl
+*.xdy   # xindy
+*.xyc; *.xyd  # xypic precompiled
+*.ttt; *.fff  # endfloat
 
-# changes
-*.soc
-*.loc
+# === Editors & backups ===
+*.bak; *.bak[0-9]*   # generic backup
+*.sav               # WinEdt
+.texpadtmp          # Texpad
+*.lyx~              # LyX
+*.backup            # Kile
+.*.swp; *~[0-9]*    # vim/gummi/temp files
+auto/               # Emacs AUCTeX
+*.tps               # TeXnicCenter
 
-# comment
-*.cut
-
-# cprotect
-*.cpt
-
-# elsarticle (documentclass of Elsevier journals)
-*.spl
-
-# endnotes
-*.ent
-
-# fixme
-*.lox
-
-# feynmf/feynmp
-*.mf
-*.mp
-*.t[1-9]
-*.t[1-9][0-9]
-*.tfm
-
-#(r)(e)ledmac/(r)(e)ledpar
-*.end
-*.?end
-*.[1-9]
-*.[1-9][0-9]
-*.[1-9][0-9][0-9]
-*.[1-9]R
-*.[1-9][0-9]R
-*.[1-9][0-9][0-9]R
-*.eledsec[1-9]
-*.eledsec[1-9]R
-*.eledsec[1-9][0-9]
-*.eledsec[1-9][0-9]R
-*.eledsec[1-9][0-9][0-9]
-*.eledsec[1-9][0-9][0-9]R
-
-# glossaries
-*.acn
-*.acr
-*.glg
-*.glo
-*.gls
-*.glsdefs
-*.lzo
-*.lzs
-*.slg
-*.slo
-*.sls
-
-# uncomment this for glossaries-extra (will ignore makeindex's style files!)
-# *.ist
-
-# gnuplot
-*.gnuplot
-*.table
-
-# gnuplottex
-*-gnuplottex-*
-
-# gregoriotex
-*.gaux
-*.glog
-*.gtex
-
-# htlatex
-*.4ct
-*.4tc
-*.idv
-*.lg
-*.trc
-*.xref
-
-# hypdoc
-*.hd
-
-# hyperref
-*.brf
-
-# knitr
-*-concordance.tex
-# TODO Uncomment the next line if you use knitr and want to ignore its generated tikz files
-# *.tikz
-*-tikzDictionary
-
-# listings
-*.lol
-
-# luatexja-ruby
-*.ltjruby
-
-# makeidx
-*.idx
-*.ilg
-*.ind
-
-# minitoc
-*.maf
-*.mlf
-*.mlt
-*.mtc[0-9]*
-*.slf[0-9]*
-*.slt[0-9]*
-*.stc[0-9]*
-
-# minted
-_minted*
-*.data.minted
-*.pyg
-
-# morewrites
-*.mw
-
-# newpax
-*.newpax
-
-# nomencl
-*.nlg
-*.nlo
-*.nls
-
-# pax
-*.pax
-
-# pdfpcnotes
-*.pdfpc
-
-# sagetex
-*.sagetex.sage
-*.sagetex.py
-*.sagetex.scmd
-
-# scrwfile
-*.wrt
-
-# spelling
-*.spell.bad
-*.spell.txt
-
-# svg
-svg-inkscape/
-
-# sympy
-*.sout
-*.sympy
-sympy-plots-for-*.tex/
-
-# pdfcomment
-*.upa
-*.upb
-
-# pythontex
-*.pytxcode
-pythontex-files-*/
-
-# tcolorbox
-*.listing
-
-# thmtools
-*.loe
-
-# TikZ & PGF
-*.dpth
-*.md5
-*.auxlock
-
-# titletoc
-*.ptc
-
-# todonotes
-*.tdo
-
-# vhistory
-*.hst
-*.ver
-
-# easy-todo
-*.lod
-
-# xcolor
-*.xcp
-
-# xmpincl
-*.xmpi
-
-# xindy
-*.xdy
-
-# xypic precompiled matrices and outlines
-*.xyc
-*.xyd
-
-# endfloat
-*.ttt
-*.fff
-
-# Latexian
-TSWLatexianTemp*
-
-## Editors:
-# WinEdt
-*.bak
-*.sav
-
-# latexindent.pl
-*.bak[0-9]*
-
-# Texpad
-.texpadtmp
-
-# LyX
-*.lyx~
-
-# Kile
-*.backup
-
-# gummi
-.*.swp
-
-# KBibTeX
-*~[0-9]*
-
-# TeXnicCenter
-*.tps
-
-# auto folder when using emacs and auctex
-./auto/*
-*.el
-
-# expex forward references with \gathertags
-*-tags.tex
-
-# standalone packages
-*.sta
-
-# Makeindex log files
-*.lpz
-
-# xwatermark package
-*.xwm
-
-# REVTeX puts footnotes in the bibliography by default, unless the nofootinbib
-# option is specified. Footnotes are the stored in a file with suffix Notes.bib.
-# Uncomment the next line to have this generated file ignored.
-#*Notes.bib
+# Uncomment to ignore compiled PDFs if you don't want them in Git
+# *.pdf

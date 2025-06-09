@@ -100,7 +100,7 @@ auto/               # Emacs AUCTeX
 # ignore all TeX source and style files
 *.tex
 *.sty
-* .nav
+*.nav
 
 # Uncomment to ignore compiled PDFs if you don't want them in Git
 # *.pdf

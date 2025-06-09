@@ -1,0 +1,44 @@
+
+\begin{frame}[plain,noframenumbering] 
+    \maketitle
+\end{frame}
+\setbeamertemplate{background}{}
+\setlength{\abovedisplayskip}{-2pt}
+\setlength{\belowdisplayskip}{4pt}
+\setlength{\abovedisplayshortskip}{-3pt}
+\setlength{\belowdisplayshortskip}{4pt}
+
+
+\AtBeginSection[]
+{
+    \begin{frame}[plain, allowframebreaks]
+\setstretch{.1}
+
+        \setlength{\parskip}{1ex}
+            \tableofcontents[sections={1-7}, 
+            currentsubsection, 
+            sectionstyle=show/hide, 
+            sectionstyle=show/shaded, 
+            ]
+    \end{frame}
+}
+
+
+% Hide progress bar and footline on titlepage
+\begin{frame}{Outline}
+ \vspace*{.2cm}
+
+\begin{center}
+\begin{minipage}{10cm}
+  \begin{alertblock}{Outline}
+  \setstretch{.1}
+   \setlength{\parskip}{1ex}
+  \tableofcontents[sections={1-10}]
+  %   \framebreak
+  % \tableofcontents[sections={2}]
+\end{alertblock}
+\end{minipage}
+\end{center}
+
+
+\end{frame}

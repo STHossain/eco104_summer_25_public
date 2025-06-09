@@ -1,0 +1,33 @@
+Customer	Method of Payment	Day of Purchase	Preference for Falvor of Coffee	Cost of Coffee (Kuna)	Customer Age
+1	Visa	Monday	1	48.33	55
+2	Master Card	Tuesday	1	61.42	58
+3	Master Card	Saturday	1	45.52	49
+4	Cash	Friday	1	49.86	59
+5	Other 	Wednesday	1	35.47	70
+6	Visa	Thursday	1	39.92	46
+7	Master Card	Wednesday	2	47.91	43
+8	Master Card	Saturday	2	44.58	25
+9	Master Card	Saturday	2	27.45	27
+10	Cash	Saturday	2	25.43	48
+11	Cash	Friday	4	42.57	48
+12	Cash	Friday	3	70.28	54
+13	Cash	Tuesday	5	41.72	65
+14	Cash	Monday	5	79.82	62
+15	Cash	Monday	5	51.78	56
+16	Cash	Thursday	3	49.16	53
+17	Cash	Friday	4	80.14	58
+18	Master Card	Saturday	4	51.27	67
+19	Visa	Saturday	4	30.19	60
+20	Visa	Monday	2	30.79	40
+21	Visa	Tuesday	1	42.05	35
+22	Master Card	Thursday	1	70.33	24
+23	Cash	Thursday	3	40.56	54
+24	Master Card	Friday	3	69.72	60
+25	Other 	Friday	3	63.47	44
+26	Other 	Friday	6	37.62	62
+27	Master Card	Monday	5	62.58	27
+28	Other 	Monday	5	58.05	55
+29	Other 	Saturday	6	82.99	62
+30	Master Card	Saturday	3	48.79	64
+					
+					 

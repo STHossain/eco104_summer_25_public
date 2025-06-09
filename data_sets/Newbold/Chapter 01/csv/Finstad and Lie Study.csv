@@ -1,0 +1,101 @@
+Number,Status,Age,Major,Year,Gender,GPA,Parking,Grad School,Housing,Dining
+1,Interntional,23,FIN,Senior,M,3.5,1,1,4,5
+2,Interntional,24,FIN,Senior,M,3.3,2,0,3,2
+3,Interntional,24,FIN,Senior,F,3.8,5,1,2,1
+4,Interntional,22,MGT,Junior,M,3.2,2,1,3,3
+5,Interntional,21,UD,Sophomore,M,3,4,0,1,4
+6,Interntional,20,MKT,Sophomore,M,2.7,3,0,5,4
+7,Interntional,22,FIN,Junior,M,2.8,2,1,2,5
+8,Interntional,22,ATG,Junior,F,3.5,3,0,1,1
+9,Interntional,20,MGT,First Year,M,3,1,1,3,2
+10,American,18,MGT,First Year,M,2.7,5,1,4,5
+11,American,19,MKT,First Year,F,2.8,2,0,4,2
+12,American,19,ATG,First Year,M,2.9,1,1,5,4
+13,American,19,ATG,First Year,F,3,3,0,1,3
+14,American,18,ATG,First Year,M,3.1,4,0,2,2
+15,American,18,UD,First Year,F,3.2,4,0,5,3
+16,American,20,FIN,Sophomore,M,3.3,5,1,2,1
+17,American,20,MKT,Sophomore,F,3.5,1,0,4,5
+18,American,20,FIN,Sophomore,M,3.6,2,1,3,4
+19,American,20,MGT,Sophomore,F,3.7,5,1,2,3
+20,American,21,ATG,Junior,M,2.6,2,0,3,2
+21,American,21,MKT,Junior,F,2.5,4,1,1,5
+22,American,22,MKT,Junior,M,3.5,3,0,5,2
+23,American,22,MKT,Junior,F,3.3,2,1,4,1
+24,American,23,MGT,Junior,M,3.8,3,0,3,3
+25,American,23,ATG,Senior,F,3.2,1,0,2,4
+26,American,23,ATG,Senior,M,3,5,0,3,4
+27,American,23,MKT,Senior,F,2.7,2,1,1,5
+28,American,22,FIN,Senior,M,2.8,1,1,5,1
+29,American,22,ATG,Junior,F,3.5,3,1,2,2
+30,American,20,MGT,Junior,M,3,4,0,1,5
+31,American,20,MGT,Sophomore,F,2.7,4,1,3,2
+32,American,20,MKT,Sophomore,M,2.8,5,0,4,4
+33,American,21,ATG,Sophomore,F,2.9,1,1,4,3
+34,American,21,ATG,Sophomore,M,3,2,1,5,2
+35,American,21,ATG,Sophomore,F,3.1,5,0,1,3
+36,American,20,UD,Sophomore,M,3.2,2,0,2,1
+37,American,20,UD,Sophomore,F,3.3,4,0,5,5
+38,American,18,MKT,First Year,M,3.5,3,1,2,4
+39,American,18,FIN,First Year,F,3.6,2,1,4,3
+40,American,18,MGT,First Year,M,3.7,3,1,3,2
+41,American,18,ATG,First Year,F,2.6,1,0,2,5
+42,American,20,MKT,Junior,M,2.5,5,0,3,2
+43,American,20,MKT,Sophomore,F,3.5,2,1,1,1
+44,American,20,MKT,Sophomore,M,3.3,1,1,5,3
+45,American,21,MGT,Sophomore,F,3.8,3,1,4,4
+46,American,21,ATG,Sophomore,M,3.2,4,0,3,4
+47,American,21,ATG,Sophomore,F,3,4,0,2,5
+48,American,20,MKT,Sophomore,M,2.7,5,0,3,1
+49,American,22,FIN,Sophomore,F,2.8,1,1,1,2
+50,American,22,ATG,Junior,M,3.5,2,1,5,5
+51,American,22,MGT,Junior,F,3,5,1,2,2
+52,American,22,MGT,Junior,M,2.7,2,0,1,4
+53,American,22,MKT,Junior,F,2.8,4,0,3,3
+54,American,23,ATG,Senior,M,2.9,3,1,4,2
+55,American,23,ATG,Senior,F,3,2,0,4,3
+56,American,23,ATG,Senior,M,3.1,3,0,5,1
+57,American,24,FIN,Senior,F,3.2,1,0,1,5
+58,American,24,FIN,Senior,M,3.3,5,1,2,4
+59,American,24,MKT,Senior,F,3.5,2,0,5,3
+60,American,23,FIN,Senior,M,3.6,1,1,2,2
+61,American,23,MGT,Senior,F,3.7,3,1,4,2
+62,American,23,ATG,Senior,M,2.6,4,1,3,4
+63,American,20,MKT,First Year,F,2.5,4,1,2,3
+64,American,20,MKT,Junior,M,3.5,5,0,3,2
+65,American,20,MKT,Junior,F,3.3,1,0,1,5
+66,American,30,MGT,Junior,M,3.8,2,1,5,2
+67,American,21,ATG,Sophomore,F,3.2,5,0,4,1
+68,American,21,ATG,Sophomore,M,3,2,1,3,3
+69,American,20,UD,Sophomore,F,2.7,4,0,2,4
+70,American,20,UD,Sophomore,M,2.8,3,0,3,4
+71,American,20,UD,Sophomore,F,3.5,2,1,1,5
+72,American,18,UD,First Year,M,3,3,1,5,1
+73,American,18,MGT,First Year,F,2.7,1,1,2,2
+74,American,18,MKT,First Year,M,2.8,5,0,1,5
+75,American,18,ATG,First Year,F,2.9,2,0,3,2
+76,American,17,ATG,First Year,M,3,1,1,4,4
+77,American,20,ATG,Sophomore,F,3.1,3,1,4,3
+78,American,20,UD,Sophomore,M,3.2,4,0,5,2
+79,American,21,FIN,Sophomore,F,3.3,4,0,1,3
+80,American,21,MKT,Sophomore,M,3.5,5,0,2,1
+81,American,23,FIN,Senior,F,3.6,1,0,5,5
+82,American,23,MGT,Senior,M,3.7,2,0,2,4
+83,American,23,UD,Senior,F,2.6,5,1,4,3
+84,American,23,UD,Senior,M,2.5,2,1,3,2
+85,American,28,UD,Sophomore,F,3.5,4,0,2,3
+86,American,26,MKT,Sophomore,M,3.3,3,0,3,2
+87,American,35,MGT,First Year,F,3.8,2,1,1,3
+88,American,16,ATG,First Year,M,3.2,3,0,5,1
+89,American,18,ATG,Sophomore,F,3,1,1,4,5
+90,American,17,ATG,First Year,M,2.7,5,0,3,4
+91,American,21,MKT,Sophomore,F,2.8,2,1,2,3
+92,American,20,MKT,Sophomore,M,3.5,1,0,3,2
+93,American,23,UD,Senior,F,3,3,1,1,5
+94,American,22,MKT,Junior,M,2.7,4,0,5,2
+95,American,22,FIN,Junior,F,2.8,4,0,2,1
+96,American,22,ATG,Junior,M,2.9,5,0,1,3
+97,American,21,MGT,Junior,F,3,1,0,3,4
+98,American,18,UD,Junior,M,3.1,2,1,4,4
+99,American,18,UD,First Year,F,3.2,5,1,4,5
+100,International,21,Fin,Senior,M,3.5,2,1,2,2

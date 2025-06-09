@@ -1,0 +1,237 @@
+
+
+  \usepackage{xcolor}
+  \definecolor{olive}{rgb}{0.3, 0.4, .1}
+  \setbeamercolor{itemize/enumerate body}{fg=black}
+  \setbeamercolor{title}{fg = green!30!black}
+  \setbeamercolor{frametitle}{fg = gray!70!black, bg = white}
+
+
+% \usepackage{lmodern}
+\usepackage[scale = 2]{ccicons}
+\usepackage[export]{adjustbox}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+
+\usepackage[justification=raggedright,width=\linewidth]{caption}
+\usepackage{tikz} 
+
+
+\usepackage{setspace}
+
+\setbeamertemplate{title page}[default][right,colsep=-4bp,rounded=true,shadow=\beamer@themerounded@shadow]
+
+\setbeamertemplate{caption}[numbered]
+
+
+%% Options
+
+\setbeamercolor{alerted text}{fg=blue}
+\setbeamertemplate{alerted text begin}{\itshape}
+\setbeamertemplate{alerted text end}{}
+
+\newenvironment<>{varblock}[2][\textwidth]{%
+    \setlength{\textwidth}{#1}
+    \begin{actionenv}#3%
+        \def\insertblocktitle{\underline{#2}}%
+        \par%
+        \usebeamertemplate{block begin}}
+        {\par%
+        \usebeamertemplate{block end}%
+    \end{actionenv}}
+
+\setbeamertemplate{blocks}[rounded][shadow=true]
+\setbeamercolor{block title}{fg=black,bg=gray!20!white}
+\setbeamercolor{block body}{fg=black,bg=gray!10!white}
+
+
+
+
+%% Theorem
+
+% \newtheorem{theorem}{Theorem}
+
+%% Bangla tex
+
+
+\usepackage{polyglossia}
+\setotherlanguage[numerals=Devanagari]{bengali}
+\setmainlanguage{english}
+\newfontfamily\bengalifont[Script=Bengali]{Akaash}
+
+
+%% tikx
+
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,fit,shapes,calc}
+
+
+
+
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+
+
+\newcommand\Permute[2][^n]{\prescript{#1\mkern-2.5mu}{}P_{#2}}
+\newcommand\Combine[2][^n]{\prescript{#1\mkern-0.5mu}{}C_{#2}}
+
+
+\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+
+
+\usepackage{flexisym}
+\usepackage{breqn}
+
+\usepackage[T1]{fontenc}
+
+% \usepackage{mathpazo}
+% \renewcommand{\rmdefault}{put}
+
+% \usepackage{fourier} 
+% Only use the math font of mathpazo
+% \let\temp\rmdefault
+% \usepackage{mathpazo}
+% \let\rmdefault\temp
+% \renewcommand{\rmdefault}{put}
+
+
+% \usepackage[hyphens]{url}
+
+
+  % \usefonttheme{professionalfonts} % using non standard fonts for beamer
+  % \usefonttheme{serif} % default family is serif
+
+  % \usepackage{gentium}
+  \usepackage{multicol}
+  \usepackage{mathpazo}
+
+
+
+% \renewcommand{\familydefault}{\sfdefault}  
+
+
+  % color brackets
+  \makeatletter
+  \newcount\bracketnum
+  \newcommand\makecolorlist[1]{%
+      \bracketnum0\relax
+      \makecolorlist@#1,.%
+      \bracketnum0\relax
+  }
+  \def\makecolorlist@#1,{%
+      \advance\bracketnum1\relax
+      \expandafter\def\csname bracketcolor\the\bracketnum\endcsname{\color{#1}}%
+      \@ifnextchar.{\@gobble}{\makecolorlist@}%
+  }
+  \let\oldleft\left
+  \let\oldright\right
+  \def\left#1{%
+      \global\advance\bracketnum1\relax 
+      \colorlet{temp}{.}%
+      \csname bracketcolor\the\bracketnum\endcsname
+      \oldleft#1%
+      \color{temp}%
+  }
+  \def\right#1{%
+      \colorlet{temp}{.}%
+      \csname bracketcolor\the\bracketnum\endcsname
+      \oldright#1%
+      \global\advance\bracketnum-1\relax
+      \color{temp}%
+  }
+  \makeatother
+
+
+  \makecolorlist{black,blue,red}
+
+
+
+
+
+
+\setbeamertemplate{section in toc}{%
+  {\color{firstcolor}\inserttocsectionnumber.}~\inserttocsection}
+\setbeamercolor{subsection in toc}{bg=white,fg=black}
+\setbeamertemplate{subsection in toc}{%
+  \hspace{1.2em}{\color{firstcolor}\rule[0.3ex]{3pt}{3pt}}~\inserttocsubsection\par}
+
+
+\setbeamerfont{section in toc}{size=\fontsize{6}{8}\selectfont}
+\setbeamerfont{subsection in toc}{size=\fontsize{6}{8}\selectfont}
+\setbeamerfont{subsection in toc shaded}{size=\fontsize{6}{8}\selectfont}
+
+
+\makeatletter
+\patchcmd{\beamer@sectionintoc}{\vskip1.5em}{\vskip0.5em}{}{}
+\makeatother
+
+
+
+
+
+
+  \usepackage{twemojis}
+  \usepackage{fontspec}
+  \usepackage{tikzsymbols}
+  \newfontfamily\DejaSans{DejaVu Sans}
+
+% for R
+\usepackage[fixed]{fontawesome5}
+
+
+\setbeamercolor{emph}{fg=red}
+\renewcommand<>{\emph}[1]{%
+  {\color{purple}\only#2{\rm\itshape}#1}%
+}
+
+\setbeamertemplate{frametitle continuation}{}
+
+
+\usepackage[round,  maxcitenames=10, mincitenames=11]{natbib}
+\setlength{\bibhang}{0pt}
+\renewcommand{\bibsection}{}
+\usepackage{fancybox}
+
+
+\setbeamertemplate{section page}
+{
+    \begingroup
+    \begin{beamercolorbox}[sep=12pt,center]{section title}
+        \usebeamerfont{section title}\insertsection\par
+    \end{beamercolorbox}
+    \endgroup
+}
+
+\setbeamertemplate{subsection page}
+{
+    \begingroup
+    \begin{beamercolorbox}[sep=12pt,center]{section title}
+        \usebeamerfont{section title}\insertsection\par
+    \end{beamercolorbox}
+    \vspace*{-1pt}
+    \begin{beamercolorbox}[sep=8pt,center]{subsection title}
+        \usebeamerfont{subsection title}\insertsubsection\par
+    \end{beamercolorbox}
+    \endgroup
+}
+
+
+
+\newcommand\Var[1]{\mathbb{V}\mathrm{ar}{#1}}
+
+
+
+\renewcommand{\emph}[1]{%
+{\rm\itshape{\color{purple}#1}}%
+}
+
+\renewcommand{\alert}[1]{%
+{\rm\itshape{\color{blue}#1}}%
+}

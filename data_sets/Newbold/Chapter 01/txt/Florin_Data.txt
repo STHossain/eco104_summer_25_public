@@ -1,0 +1,7 @@
+			Preference for Color of Roses			Dissatisfied with Delivery
+			1 = Red			1 = Dissatisfied
+			2 = Yellow			2 = Satisfied
+			3 = White			
+			4 = Pink			
+			5 = Yellow			
+			6 = Other			
